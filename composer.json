@@ -1,0 +1,20 @@
+{
+    "name": "rafael/hakdog",
+    "require": {
+        "illuminate/collections": "^10.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
